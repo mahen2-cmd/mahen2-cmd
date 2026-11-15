@@ -1,29 +1,36 @@
 ### Hi, I'm Mahen 👋
 
-AI/ML engineer in **Lisbon, Portugal**. I build AI systems and measure whether they work: RAG and search, LLM data pipelines, agents with tool use, and reinforcement learning.
+**AI / ML engineer in Lisbon, Portugal.** 5+ years shipping ML and LLM systems for clients in Germany, Switzerland and China: RAG and search, LLM evaluation, agents with tool use, and reinforcement learning. I measure whether things work before I call them done.
 
-**Open to AI / ML engineer, data scientist and forward deployed roles, in Lisbon or remote.**
+**Open to AI Engineer, ML Engineer, Data Scientist and Forward Deployed Engineer roles, in Lisbon or remote (EU, or US Eastern hours).**
 
-[Website](https://www.mahenmughal.com) · [LinkedIn](https://www.linkedin.com/in/mahen-mughal-70bab6167/) · [Resume](https://www.mahenmughal.com/Mahen-Mughal-Resume.pdf) · [Email](mailto:mahenmughal2@gmail.com)
+[Website](https://www.mahenmughal.com) · [LinkedIn](https://www.linkedin.com/in/mahen-mughal-70bab6167/) · [Resume (PDF)](https://www.mahenmughal.com/Mahen-Mughal-Resume.pdf) · [Email](mailto:mahenmughal2@gmail.com)
 
 ---
 
-#### What I've built
+#### Selected work
 
-| | |
-|---|---|
-| **RAG for lawyers, with PII redaction** · client work | Retrieval-augmented question answering over legal documents for a legal-tech startup. Client names were masked with regex + NER before any text reached the LLM; LangSmith tracing; in production with paid users, and I was on call. |
-| **BJJ AI** · personal | Search and an AI coach over my Brazilian Jiu-Jitsu video library: GPU transcription with faster-whisper, hybrid search with LLM re-ranking and timestamped citations. An evaluation set of 200+ questions took the right chapter in the top 8 from **59.7% to 89.3%** (MRR 0.32 → 0.75). Private, because the transcripts come from paid courses. |
-| **[Uruj](https://uruj.app)** · my own product | Past-paper practice for O and A Level students: a Claude + vision pipeline extracts ~9,560 exam questions, a second model checks each one, and disagreements are hidden. React on Supabase and Cloudflare Workers. |
-| **[Intrinsically motivated agents](https://github.com/mahen2-cmd/Intrinsically-Motivated-Agents)** · research | Two RL agents with no task reward at all, only curiosity, in a grid world with a box that only both together can push. |
-| **Freelance ML** · since 2021 | Clients in Germany, Switzerland and China: an RL policy that raised a Swiss farm's profit by **30%**, machine-failure prediction from logs, product images → title, description and price. |
+- **RAG for lawyers with PII redaction** · *client work, legal-tech startup* · Python, OpenAI API, embeddings, NER, LangSmith
+  Shipped retrieval-augmented Q&A over confidential legal documents to **paid users in production**; masked client names with regex + NER before any text reached the LLM, added tracing and paid-user access control, and was on call for the live system.
+- **BJJ AI** · *personal* · Python, faster-whisper, bge-small, hybrid search, LLM re-ranking, Claude API, SQLite
+  Raised retrieval accuracy (right chapter in top 8) from **59.7% to 89.3%** and MRR from **0.32 to 0.75** on a 200+ question evaluation set, by testing every change against it; rejected LLM query rewriting when it scored worse (79.1%). About 1 cent per answer. Private: the transcripts come from paid courses.
+- **[Uruj](https://uruj.app)** · *own product* · Claude API + vision, React, TypeScript, Supabase, Cloudflare Workers
+  Built an extraction pipeline that put **~9,560 exam questions across 10 subjects** live, each checked by a second model with disagreements hidden, for **~$76 total model spend**; ~1,250 automated tests.
+- **Freelance ML** · *since 2021* · Python, scikit-learn, PyTorch, Docker, Flask
+  Raised a Swiss farm's profit by **30%** with a reinforcement learning policy trained in simulation; predicted machine failures from client logs; generated product titles, descriptions and prices from images; COVID forecasting with ARIMA.
+- **Reinforcement learning research** · [Intrinsically-Motivated-Agents](https://github.com/mahen2-cmd/Intrinsically-Motivated-Agents) · [Intrinsic-Motivation-RL](https://github.com/mahen2-cmd/Intrinsic-Motivation-RL) · [Dyna-Maze](https://github.com/mahen2-cmd/Dyna-Maze)
+  Curiosity-driven agents with no task reward, forward/inverse dynamics models in PyTorch, and model-based RL (Dyna-Q / Dyna-Q+) in non-stationary environments.
 
-Several of these are private (client work, paid content); the [website](https://www.mahenmughal.com) has the details. My recent personal projects are built with AI-assisted programming (Claude Code), and I say so.
+My recent personal projects are built with AI-assisted programming (Claude Code), and I say so. Client and paid-content projects are private; details are on the [website](https://www.mahenmughal.com).
 
-#### Tools
+#### Skills
 
-Python · PyTorch · scikit-learn · Claude and OpenAI APIs · RAG and embeddings · LLM evaluation · reinforcement learning · SQL · TypeScript · Docker · Flask
+- **Languages:** Python, SQL, TypeScript / JavaScript, Java, C / C++
+- **ML & deep learning:** PyTorch, TensorFlow, scikit-learn, XGBoost, NumPy, pandas, reinforcement learning (Stable Baselines3, Gymnasium), computer vision, time-series forecasting (ARIMA)
+- **LLMs & AI engineering:** RAG, embeddings and vector search, hybrid search and re-ranking, LLM evaluation and LLM-as-judge, agents and tool use, Claude and OpenAI APIs, LangSmith, speech-to-text (Whisper), PII redaction
+- **Data science:** statistics, hypothesis testing, A/B testing, causal inference, regression and classification, Power BI
+- **Engineering & MLOps:** Docker, Flask, Git / GitHub, CI/CD, pytest, Linux, Azure, GPU computing, Supabase, Cloudflare Workers
 
 #### Background
 
-BSc Computer Science, LUMS (2023) · Research assistant in RL at LUMS · Teaching assistant for reinforcement learning at ITU · mentored ~50 junior engineers
+BSc Computer Science, LUMS (2023) · RL research assistant, LUMS · Teaching assistant, reinforcement learning (LUMS 2023; ITU 2025–26) · mentored ~50 junior engineers · English C1, Portuguese A1
